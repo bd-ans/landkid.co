@@ -15,7 +15,7 @@
 <body>
 
   <!-- HEADER -->
-  <header class="header mt-3 d-flex align-items-center justify-content-between">
+  <header class="header mt-2 d-flex align-items-center justify-content-between">
     <div class="header-inner d-flex align-items-center">
       <div class="header-logo d-flex align-content-center">
         <a href="#">
@@ -26,16 +26,36 @@
     <!-- NAVBAR -->
     <nav class="nav d-flex align-items-center justify-content-center">
       <ul class="nav__navlist d-flex">
-        <li class="nav__item">
-          <a href="#" class="nav__link f-nav">Landings</a>
+        <li class="nav__item d-flex justify-content-center">
+          <a href="#" class="nav__link f-nav position-relative">Landings</a>
+          <!-- dropdown -->
+          <div class="dropdown-m position-absolute rounded-3">
+            <div class="dropdown-content container-fluid bg-danger rounded-3 ">
+              <div class="dropdown-content-items row rounded-3">
+                <div class="left-content-dropdown col-6 rounded-start">
+                  <div class="background-for-dropdown d-flex justify-content-center align-items-center">
+                    <div class="left-main-dropdown-contents text-center">
+                      <h4 class="left-dropdown-title text-white">Want to see an overview?</h4>
+                      <p class="left-dropdown-paragrph text-white flex-sm-column d-flex mx-auto">See all the pages at once.</p>
+                      <button class="btn btn-light m-auto"> View all pages</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="right-content-dropdown col-6">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
-        <li class="nav__item">
+        <li class="nav__item d-flex justify-content-center">
           <a href="#" class="nav__link">Pages</a>
         </li>
-        <li class="nav__item">
+        <li class="nav__item d-flex justify-content-center">
           <a href="#" class="nav__link">Account</a>
         </li>
-        <li class="nav__item">
+        <li class="nav__item d-flex justify-content-center">
           <a href="#" class="nav__link f-last">Documentation</a>
         </li>
       </ul>

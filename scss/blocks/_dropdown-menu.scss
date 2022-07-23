@@ -1,0 +1,28 @@
+.dropdown-m {
+  width: 655px;
+  height: 300px;
+  margin-top: 42px;
+}
+
+.dropdown-content,
+.dropdown-content-items {
+  height: 100%;
+}
+
+.left-content-dropdown {
+  background-image: url('../../img/header-bg.jpg');
+  height: 100% !important;
+  background-size: cover;
+  padding: 0 !important;
+}
+
+.left-dropdown-title {
+  line-height: 1.45;
+  font-size: 1.1875rem;
+}
+
+.background-for-dropdown {
+  background-color: #335eeaaf;
+  width: 100%;
+  height: 100%;
+}

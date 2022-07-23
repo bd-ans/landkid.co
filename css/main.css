@@ -398,3 +398,32 @@ body {
   transition: box-shadow 0.25s ease, transform 0.25s ease;
   transition: box-shadow 0.25s ease, transform 0.25s ease, -webkit-box-shadow 0.25s ease, -webkit-transform 0.25s ease;
 }
+
+.dropdown-m {
+  width: 655px;
+  height: 300px;
+  margin-top: 42px;
+}
+
+.dropdown-content,
+.dropdown-content-items {
+  height: 100%;
+}
+
+.left-content-dropdown {
+  background-image: url("../../img/header-bg.jpg");
+  height: 100% !important;
+  background-size: cover;
+  padding: 0 !important;
+}
+
+.left-dropdown-title {
+  line-height: 1.45;
+  font-size: 1.1875rem;
+}
+
+.background-for-dropdown {
+  background-color: rgba(51, 94, 234, 0.6862745098);
+  width: 100%;
+  height: 100%;
+}
