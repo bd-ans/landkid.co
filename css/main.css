@@ -389,6 +389,8 @@ body {
   width: 672px;
   height: 315px;
   margin-top: 42px;
+  -webkit-box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+          box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
 }
 
 .dropdown-content,
