@@ -42,13 +42,13 @@
   line-height: 1.6;
   border-radius: 5px !important;
   margin-bottom: 2px;
-  background-color: #335eea !important;
 }
 
 .header-btn__btn:hover {
   transform: translate(0, -4px);
   border-color: none !important;
-  transition-duration: .32s ease;
+  background-color:#335eea;
+  transition: all .26s ease-out;
 }
 
 .lift {

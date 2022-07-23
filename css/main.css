@@ -376,15 +376,15 @@ body {
   line-height: 1.6;
   border-radius: 5px !important;
   margin-bottom: 2px;
-  background-color: #335eea !important;
 }
 
 .header-btn__btn:hover {
   -webkit-transform: translate(0, -4px);
           transform: translate(0, -4px);
   border-color: none !important;
-  -webkit-transition-duration: 0.32s ease;
-          transition-duration: 0.32s ease;
+  background-color: #335eea;
+  -webkit-transition: all 0.26s ease-out;
+  transition: all 0.26s ease-out;
 }
 
 .lift {
