@@ -44,6 +44,29 @@
   transition: all .26s ease-out;
 }
 
+.drop-link,
+.drop-list-item {
+  text-decoration: none;
+}
+
+.drop-list-item {
+  font-size: .75rem;
+  letter-spacing: .08em;
+  line-height: 1.55;
+}
+
+.drop-link {
+  color: #506690;
+  font-weight: 400;
+  text-align: inherit;
+  font-size: .9375rem;
+}
+
+.drop-item {
+  padding-left: 28px !important;
+  margin-top: 39px;
+}
+
 .cvdv {
   margin-top: 2000px;
 }
