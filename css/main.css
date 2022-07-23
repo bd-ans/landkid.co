@@ -327,8 +327,8 @@ template {
 
 body {
   font-family: "Grotesk";
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 1.0625rem;
   background-color: #fff;
   line-height: 1.6;
 }
@@ -386,8 +386,8 @@ body {
 }
 
 .dropdown-m {
-  width: 655px;
-  height: 300px;
+  width: 672px;
+  height: 315px;
   margin-top: 42px;
 }
 
@@ -406,10 +406,25 @@ body {
 .left-dropdown-title {
   line-height: 1.45;
   font-size: 1.1875rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 1px !important;
+}
+
+.left-dropdown-paragrph {
+  font-size: 0.9375rem !important;
 }
 
 .background-for-dropdown {
-  background-color: rgba(51, 94, 234, 0.6862745098);
+  background-color: rgba(47, 81, 192, 0.8078431373);
   width: 100%;
   height: 100%;
+}
+
+.dropdown-item-btn {
+  border-color: transparent !important;
+  color: #335eea !important;
+  font-size: 1.0625rem;
+  padding: 0.5625rem 1rem;
+  font-weight: 400;
 }
