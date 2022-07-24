@@ -691,8 +691,8 @@ body {
 }
 
 .hero-left-content {
-  -webkit-animation: fade-in-hero 0.5s ease-in-out;
-          animation: fade-in-hero 0.5s ease-in-out;
+  -webkit-animation: fade-in-hero 0.8s ease-in-out;
+          animation: fade-in-hero 0.8s ease-in-out;
   margin-top: 0px;
 }
 
