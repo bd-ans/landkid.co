@@ -531,7 +531,8 @@ body {
 
 .settings-in:hover > .dropdown-mc-in,
 .sign-in:hover > .sign-in-dropdow-in,
-.sign-up-dropdown:hover > .sign-up-dropdow-in {
+.sign-up-dropdown:hover > .sign-up-dropdow-in,
+.password-reset-drop:hover > .password-reset-dropdown-in {
   display: block !important;
   -webkit-animation: fade-setting 0.2s ease-in;
           animation: fade-setting 0.2s ease-in;
