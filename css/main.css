@@ -436,6 +436,10 @@ body {
   margin-top: 11px;
 }
 
+.drop-account-item {
+  padding-left: 16px !important;
+}
+
 .cvdv {
   margin-top: 2000px;
 }
@@ -450,10 +454,11 @@ body {
 
 .pages-dropdown {
   width: 560px;
-  height: 315px;
-  margin-top: 52px;
-  -webkit-box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
-          box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+}
+
+.account-dropdown {
+  width: 222px;
+  height: 201px;
 }
 
 .dropdown-content,
@@ -496,4 +501,23 @@ body {
   font-size: 1.0625rem;
   padding: 0.5625rem 1rem;
   font-weight: 400;
+}
+
+.drop-account-link {
+  padding-right: 70%;
+}
+
+.drop-account-link::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-image: url("../../img/chevron-right.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  margin-left: 153px !important;
+  margin-top: -19px !important;
 }
