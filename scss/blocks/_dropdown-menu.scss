@@ -56,7 +56,8 @@
   font-weight: 400;
 }
 
-.drop-account-link {
+.drop-account-link,
+.drop-account-link-in {
   padding-right: 70%;
 }
 
@@ -69,9 +70,30 @@
   background-image: url('../../img/chevron-right.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: 0px;
-  background-position-y: 0px;
   margin-left: 153px !important;
   margin-top: -19px !important;
+}
 
+.dropdown-mc-in {
+  width: 228px;
+  margin-top: -51px;
+  margin-left: 194px;
+  box-shadow: 0 1.5rem 4rem rgb(22 28 45 / 15%);
+}
+
+.settings-in:hover > .dropdown-mc-in {
+  display: block !important;
+  animation: fade-setting .2s ease-in;
+}
+
+
+@keyframes fade-setting {
+  from {
+    opacity: 0;
+    margin-top: -41px;
+  }
+  to {
+    opacity: 1;
+    margin-top: -51px;
+  }
 }
