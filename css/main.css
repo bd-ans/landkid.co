@@ -335,7 +335,8 @@ body {
 
 .header,
 .hero,
-.firs-steps {
+.firs-steps,
+.sponsors-inner {
   max-width: 1040px;
   margin: 0 auto;
   padding: 0 20px;
@@ -629,6 +630,10 @@ body {
   margin-top: 150px;
 }
 
+.hero-inner {
+  height: 400px;
+}
+
 .hero-left-title {
   line-height: 1.2;
   letter-spacing: -0.02em;
@@ -748,7 +753,8 @@ body {
   }
 }
 .firs-steps {
-  margin-top: 100px;
+  margin-top: 62px;
+  height: 100px;
 }
 
 .skills {
@@ -830,4 +836,8 @@ body {
     opacity: 1;
     margin-top: 0px;
   }
+}
+.sponsors {
+  width: 100%;
+  margin-top: 150px;
 }
