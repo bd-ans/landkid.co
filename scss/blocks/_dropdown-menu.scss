@@ -84,7 +84,8 @@
 .settings-in:hover > .dropdown-mc-in,
 .sign-in:hover > .sign-in-dropdow-in,
 .sign-up-dropdown:hover > .sign-up-dropdow-in,
-.password-reset-drop:hover > .password-reset-dropdown-in {
+.password-reset-drop:hover > .password-reset-dropdown-in,
+.error-dropdown-in:hover > .error-dropdown-in {
   display: block !important;
   animation: fade-setting .2s ease-in;
 }
