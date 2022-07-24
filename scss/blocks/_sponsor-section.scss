@@ -1,4 +1,35 @@
 .sponsors {
   width: 100%;
-  margin-top: 150px;
+  margin-top: 174px;
+  height: 144px;
+  padding: 0 !important;
+}
+
+.sponsors-list {
+  background-image: url('../../img/airbnb.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 47px;
+  width: 133px;
+  margin: 46px 0;
+}
+
+.sponsors-list:nth-child(2) {
+  background-image: url('../../img/coinbase.svg');
+}
+
+.sponsors-list:nth-child(3) {
+  background-image: url('../../img/lribble.svg');
+}
+
+.sponsors-list:nth-child(4) {
+  background-image: url('../../img/instagram.svg');
+}
+
+.sponsors-list:nth-child(5) {
+  background-image: url('../../img/netflix.svg');
+}
+
+.sponsors-list:nth-child(6) {
+  background-image: url('../../img/pinterest.svg');
 }
