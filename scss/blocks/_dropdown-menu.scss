@@ -14,6 +14,11 @@
   height: 201px;
 }
 
+.documentation-dropdown {
+  width: 355px;
+  height: 246px;
+}
+
 .dropdown-content,
 .dropdown-content-items {
   height: 100%;
@@ -103,4 +108,58 @@
 
 .right-content-dropdown {
   padding: 0;
+}
+
+.documentattion-drop-title {
+  font-size: .75rem;
+  line-height: 1.55;
+  letter-spacing: .08em;
+}
+
+.drop-documentation-list {
+  margin-top: 20px;
+}
+
+.drop-documentation-list::before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-image: url('../../img/documentation.svg');
+  background-size: cover;
+  margin-left: -51px;
+  margin-top: 10px;
+}
+
+.drop-components-list:before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-image: url('../../img/components.svg');
+  background-size: cover;
+  margin-left: -51px;
+  margin-top: 10px;
+}
+
+.drop-changelog-list:before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-image: url('../../img/changelog.svg');
+  background-size: cover;
+  margin-left: -51px;
+  margin-top: 10px;
+}
+
+.linear-gradient-top {
+  height: 1px;
+  width: 120%;
+  background-color: #e6e6e6;
+  margin-left: -4px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
