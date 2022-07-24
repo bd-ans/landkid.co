@@ -28,6 +28,10 @@
   color: #335eea;
 }
 
+.nav__item:hover > .dropdown-m {
+  display: block !important;
+}
+
 .header-btn__btn {
   font-size: 17px;
   padding: 9px 16px;
