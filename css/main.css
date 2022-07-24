@@ -365,8 +365,8 @@ body {
 
 .nav__item:hover > .dropdown-m {
   display: block !important;
-  -webkit-animation: fade-in 0.4s ease;
-          animation: fade-in 0.4s ease;
+  -webkit-animation: fade-in 0.4s ease-in;
+          animation: fade-in 0.4s ease-in;
   margin-top: 42px;
 }
 
