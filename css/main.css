@@ -365,8 +365,32 @@ body {
 
 .nav__item:hover > .dropdown-m {
   display: block !important;
+  -webkit-animation: fade-in 0.4s ease;
+          animation: fade-in 0.4s ease;
+  margin-top: 42px;
 }
 
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+    margin-top: 52px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 42px;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    margin-top: 52px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 42px;
+  }
+}
 .header-btn__btn {
   font-size: 17px;
   padding: 9px 16px;
@@ -419,7 +443,7 @@ body {
 .dropdown-m {
   width: 672px;
   height: 315px;
-  margin-top: 42px;
+  margin-top: 52px;
   -webkit-box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
           box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
 }
