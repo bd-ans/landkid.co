@@ -336,7 +336,8 @@ body {
 .header,
 .hero,
 .firs-steps,
-.sponsors-inner {
+.sponsors-inner,
+.sample {
   max-width: 1040px;
   margin: 0 auto;
   padding: 0 20px;
@@ -871,4 +872,34 @@ body {
 
 .sponsors-list:nth-child(6) {
   background-image: url("../../img/pinterest.svg");
+}
+
+.main-bg {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9fbfd), to(#fff));
+  background-image: linear-gradient(180deg, #f9fbfd 0, #fff);
+  padding-top: 100px;
+}
+
+.lest-sample-list {
+  padding: 0 !important;
+}
+
+.sample-card {
+  width: 393px !important;
+}
+
+.sample-card {
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.05) !important;
+          box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.05) !important;
+}
+
+.ready-sec-form__input {
+  outline: none;
+  padding: 1rem 1.25rem;
+  height: calc(3.5rem + 2px);
+  line-height: 1.25;
+  color: #161c2d;
+  display: block;
+  font-size: 1.0625rem;
+  font-weight: 400;
 }
