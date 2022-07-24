@@ -684,3 +684,8 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
+.hero-bg-img {
+  margin-top: -50px;
+  margin-left: 10px;
+}
