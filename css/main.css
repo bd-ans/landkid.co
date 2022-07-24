@@ -529,7 +529,8 @@ body {
           box-shadow: 0 0.5rem 3rem rgba(22, 28, 45, 0.15);
 }
 
-.settings-in:hover > .dropdown-mc-in {
+.settings-in:hover > .dropdown-mc-in,
+.sign-in:hover > .sign-in-dropdow-in {
   display: block !important;
   -webkit-animation: fade-setting 0.2s ease-in;
           animation: fade-setting 0.2s ease-in;

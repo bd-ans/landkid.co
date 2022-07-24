@@ -81,11 +81,11 @@
   box-shadow: 0 0.5rem 3rem rgb(22 28 45 / 15%);
 }
 
-.settings-in:hover > .dropdown-mc-in {
+.settings-in:hover > .dropdown-mc-in,
+.sign-in:hover > .sign-in-dropdow-in {
   display: block !important;
   animation: fade-setting .2s ease-in;
 }
-
 
 @keyframes fade-setting {
   from {
