@@ -1,0 +1,56 @@
+.hero {
+  margin-top: 150px;
+}
+
+.hero-left-title {
+  line-height: 1.2;
+  letter-spacing: -.02em;
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 400;
+  width: 700px;
+}
+
+.hero-left-content {
+  padding: 0 !important;
+}
+
+.hero-documentation-btn {
+  background-color: #EAEFFD !important;
+  color: #335eea;
+  padding: 14px 20px;
+  margin-top: 4px;
+}
+
+.hero-documentation-btn:hover {
+  background-color: #E1E7FC !important;
+  transform: translate(0, -4px);
+  color: #335eea;
+  transition: all .3s ease-in-out;
+}
+
+.hero-wiew-btn {
+  padding: 14px 20px;
+  margin-top: 4px;
+  padding-right: 57px;
+  padding-left: 21px;
+  background-color: #335EEA !important;
+  font-weight: 600;
+}
+
+.hero-wiew-btn::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url(../../img/arrow-right.svg);
+  background-size: cover;
+  margin-left: 14px;
+  margin-top: -1px;
+}
+
+.hero-wiew-btn:hover {
+  background-color: #2B50C7 !important;
+  transform: translate(0, -4px);
+  transition: all .3s ease-in-out;
+}
