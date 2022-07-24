@@ -691,14 +691,14 @@ body {
 }
 
 .hero-left-content {
-  -webkit-animation: fade-in-hero 0.8s ease-in-out;
-          animation: fade-in-hero 0.8s ease-in-out;
+  -webkit-animation: fade-in-hero 0.7s ease-in-out;
+          animation: fade-in-hero 0.7s ease-in-out;
   margin-top: 0px;
 }
 
 @-webkit-keyframes fade-in-hero {
   from {
-    opacity: 0.1;
+    opacity: 0;
     margin-top: 52px;
   }
   to {
@@ -709,7 +709,7 @@ body {
 
 @keyframes fade-in-hero {
   from {
-    opacity: 0.1;
+    opacity: 0;
     margin-top: 52px;
   }
   to {
