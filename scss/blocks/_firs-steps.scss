@@ -1,0 +1,48 @@
+.firs-steps {
+  margin-top: 100px;
+}
+
+.skills {
+  padding: 0 !important;
+}
+
+// .skills:nth-child(2) {
+//   margin-left: 10px;
+// }
+
+.skills::before {
+  content: '';
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-image: url(../../img/BFD.svg);
+  background-size: cover;
+}
+
+.skills:nth-child(2):before {
+  content: '';
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-image: url(../../img/desing-to-modern.svg);
+  background-size: cover;
+  margin-left: 14px;
+}
+
+.skills:nth-child(3):before {
+  content: '';
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-image: url(../../img/evrything-doc.svg);
+  background-size: cover;
+  margin-left: 24px;
+}
+
+.skills-title {
+  line-height: 1.4;
+  letter-spacing: -.01em;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  margin-top: 58px;
+}
