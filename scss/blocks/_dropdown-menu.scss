@@ -77,8 +77,8 @@
 .dropdown-mc-in {
   width: 228px;
   margin-top: -51px;
-  margin-left: 194px;
-  box-shadow: 0 1.5rem 4rem rgb(22 28 45 / 15%);
+  margin-left: 190px;
+  box-shadow: 0 0.5rem 3rem rgb(22 28 45 / 15%);
 }
 
 .settings-in:hover > .dropdown-mc-in {
@@ -96,4 +96,8 @@
     opacity: 1;
     margin-top: -51px;
   }
+}
+
+.right-content-dropdown {
+  padding: 0;
 }
