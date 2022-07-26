@@ -134,9 +134,15 @@
   font-size: 1.0625rem;
 }
 
-.openbox-list {
+.openbox-list,
+.landings-list {
   margin-top: 27px;
   margin-left: 11px;
+}
+
+.openbox-list-event {
+  margin-top: 12px;
+
 }
 
 .openbox-close-btn {
@@ -148,6 +154,35 @@
   height: 100%;
   height: 100%;
   overflow: auto;
+}
+
+.landings-list,
+.landings-title {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .08em;
+  line-height: 1.55;
+  padding-bottom: 0.5rem;
+  padding-top: 0;
+  padding-left: 0 ;
+}
+
+.landing-main-content {
+  max-width: 958px;
+  margin-left: 0;
+}
+
+.landing-link {
+  color: #506690;
+  font-size: 15px;
+}
+
+.help-center {
+  width: 100px;
+}
+
+.needly-w {
+  width: 140px;
 }
 
 ////////////////
