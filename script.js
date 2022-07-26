@@ -15,5 +15,3 @@ closeBtn.onclick = function() {
   openBox.classList.add('d-none');
   body.classList.remove('overflow-hidden');
 };
-
-openBox.style.height = window.innerHeight + 'px';
