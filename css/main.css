@@ -343,6 +343,15 @@ body {
   padding: 0 20px;
 }
 
+.hero,
+.firs-steps,
+.sponsors,
+.sponsors-inner,
+.sample,
+.main-bg {
+  display: none !important;
+}
+
 .header-inner {
   margin-top: -1px;
 }
