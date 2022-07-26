@@ -326,7 +326,7 @@ template {
 }
 
 body {
-  font-family: "Grotesk";
+  font-family: "Grotesk", sans-serif;
   font-weight: 400;
   font-size: 1.0625rem;
   background-color: #fff;
