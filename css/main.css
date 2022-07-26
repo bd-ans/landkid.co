@@ -471,7 +471,6 @@ body {
   -webkit-box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.15);
           box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.15);
   background-color: #fff !important;
-  padding-bottom: 5px;
 }
 
 .openbox-title {
@@ -498,7 +497,6 @@ body {
 }
 
 .openbox-inner {
-  height: 100%;
   height: 100%;
   overflow: auto;
 }
