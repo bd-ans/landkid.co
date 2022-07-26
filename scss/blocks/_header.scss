@@ -8,6 +8,15 @@
   padding: 0 20px;
 }
 
+.hero,
+.firs-steps,
+.sponsors,
+.sponsors-inner,
+.sample,
+.main-bg {
+  display: none !important;
+}
+
 .header-inner {
   margin-top: -1px;
 }
@@ -98,4 +107,39 @@
 
 .cvdv {
   margin-top: 2000px;
+}
+
+// RESPONSIVE FOR DESKTOP
+@media (max-width: 1199px) {
+  .header {
+    max-width: 960px;
+  }
+}
+
+// RESPONSIVE FOR TABLET
+@media (max-width: 991px) {
+  .header {
+    max-width: 720px;
+    margin-top: 28px !important;
+  }
+  
+  .nav {
+    display: none !important;
+  }
+
+  .header-btn {
+    display: none !important;
+  }
+
+  .list-btn-box__btn {
+    margin-right: 13px;
+    margin-top: -2px;
+  }
+}
+
+// RESPONSIVE FOR MOBILE
+@media (max-width: 767px) {
+  .header {
+    max-width: 540px;
+  }
 }
