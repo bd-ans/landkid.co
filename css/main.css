@@ -530,6 +530,25 @@ body {
   width: 140px;
 }
 
+.last-item {
+  padding-left: 5px !important;
+}
+
+.drop-last-list {
+  margin-top: 30px !important;
+}
+
+.tst-box {
+  width: 100%;
+}
+
+.linear-gradient-line {
+  height: 1px;
+  width: 100%;
+  background-color: #e6e6e6;
+  margin-left: -4px;
+}
+
 @media (max-width: 1199px) {
   .header {
     max-width: 960px;
