@@ -556,6 +556,8 @@ body {
   background-color: #335eea;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 @media (max-width: 1199px) {
